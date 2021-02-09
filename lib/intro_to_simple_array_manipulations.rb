@@ -11,5 +11,6 @@ def using_pop (continents = ["Africa", "Asia", "Europe", "North America", "South
 end
 
 def pop_with_args (dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
+  pop_with_args.pop (2)
   
 end
