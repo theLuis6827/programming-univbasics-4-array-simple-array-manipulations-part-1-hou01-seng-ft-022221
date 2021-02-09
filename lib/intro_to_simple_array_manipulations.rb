@@ -12,7 +12,7 @@ end
 
 def pop_with_args
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-  small_dogs = pop_with_args.pop(2)
+  small_dogs = dog_breeds.pop(2)
 end
 
 def using_shift (my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"])
@@ -21,4 +21,4 @@ end
 
 def shift_with_args
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  
+  brands_removed = shift_with_args(@ice_cream_brands)
